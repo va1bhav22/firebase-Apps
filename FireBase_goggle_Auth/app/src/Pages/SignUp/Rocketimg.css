@@ -1,0 +1,19 @@
+.Rocketimg{
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.MainFlex{
+    background-color: #7254bd;
+}
+
+.TextColor{
+    color: #8777af;
+    font-weight: bold
+}
+
+.welCome{
+    color: #7254bd;
+}
+.welComesmall{
+    color:gray;
+}

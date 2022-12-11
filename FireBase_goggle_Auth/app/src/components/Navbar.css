@@ -1,0 +1,22 @@
+.NavLogo{
+    background-color: #f99892;
+    padding: 6px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+.Mainnav{
+  border: 5px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.HomePagemainStack{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
