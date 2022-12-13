@@ -1,7 +1,7 @@
 .sidebar {
   flex: 1;
   // background-color: lightcoral;
-  border-right: 2px solid rgb(233, 230, 230);
+  border-right: 0.5px solid rgb(233, 230, 230);
   min-height: 100vh;
   background-color: white;
   .top {
@@ -19,8 +19,9 @@
   }
 
   hr {
-    height: 0;
-    border: 0.5px solid rgb(233, 230, 230);
+    height:0 ;
+    border:0.5px solid;
+    border-color:  rgb(233, 230, 230);
   }
 
   .center{

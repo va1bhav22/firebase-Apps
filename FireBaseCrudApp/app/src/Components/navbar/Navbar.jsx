@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./navbar.scss";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
@@ -9,37 +9,43 @@ import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutline
 import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div className="navbar">
       <div className="navbarWrapper">
         <div className="search">
-          <input type="text" placeholder='Search...'/>
-          <SearchOutlinedIcon/>
+          <input type="text" placeholder="Search..." />
+          <SearchOutlinedIcon />
         </div>
         <div className="items">
           <div className="item">
-            <LanguageOutlinedIcon/>
+            <LanguageOutlinedIcon className="icon" />
             English
           </div>
           <div className="item">
-          <DarkModeOutlinedIcon/>
+            <DarkModeOutlinedIcon className="icon" />
           </div>
           <div className="item">
-          <FullscreenExitOutlinedIcon/>
+            <FullscreenExitOutlinedIcon className="icon" />
           </div>
           <div className="item">
-          <NotificationsNoneOutlinedIcon/>
+            <NotificationsNoneOutlinedIcon className="icon" />
           </div>
           <div className="item">
-          <ChatBubbleOutlineOutlinedIcon/>
+            <ChatBubbleOutlineOutlinedIcon className="icon" />
           </div>
           <div className="item">
-           <ListOutlinedIcon/>
+            <ListOutlinedIcon className="icon" />
           </div>
-
+          <div className="item">
+            <img
+              src="https://avatars.githubusercontent.com/u/95289821?v=4"
+              alt=""
+              className="avatar"
+            />
+          </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
