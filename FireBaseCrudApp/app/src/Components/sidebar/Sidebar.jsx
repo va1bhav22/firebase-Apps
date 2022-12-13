@@ -6,6 +6,7 @@ const Sidebar = () => {
       <div className="top">
         <span className="logo">VJadmin</span>
       </div>
+      <hr />
       <div className="center">
         <ul>
           <li>
