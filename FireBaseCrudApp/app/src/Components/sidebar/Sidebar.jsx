@@ -79,7 +79,7 @@ const Sidebar = () => {
       <div className="bottom">
         <div className="colorOption"></div>
         <div className="colorOption"></div>
-        <div className="colorOption"></div>
+        {/* <div className="colorOption"></div> */}
       </div>
     </div>
   );
